@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #87CEEB; /* Sky Blue background */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #eee;
+    padding: 1em;
+    border-radius: 10px; /* Rounded corners for the navigation bar */
+}
+
+#project-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#project-list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#project-list a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px solid #333;
+    border-radius: 25px; /* Oval shape */
+    background-color: #fff;
+    color: #333;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#project-list a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+#pdf-container {
+    margin: 20px;
+}
+
+#pdf-viewer {
+    border: 1px solid #333;
+}
